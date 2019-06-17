@@ -10,5 +10,11 @@ class Player
         @lives = @lives - 1
     end
 
-   
+    def game_end?
+        @lives = @lives <= 0
+    end
+
+
+
+
 end
